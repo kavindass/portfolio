@@ -152,8 +152,15 @@ header {
     font-size: 100px;
 
     box-shadow: 0 0 50px rgba(56, 189, 248, 0.25);
+    overflow: hidden;
 }
-
+.profile-circle img{
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
 
 /* ===== SECTIONS ===== */
 
@@ -259,6 +266,7 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
+    cursor:pointer;
 }
 
 .project-card {
@@ -334,9 +342,11 @@ header {
 }
 
 .education-card h4 {
-    color: #38bdf8;
+    color: #f52a0f;
     margin: 8px 0;
 }
+
+
 
 .education-card p {
     color: #cbd5e1;
@@ -381,6 +391,10 @@ header {
 .social-links a {
     color: #38bdf8;
     text-decoration: none;
+}
+
+.fa-github{
+    font-size: 30px;
 }
 
 .contact-form {
