@@ -396,12 +396,9 @@ header {
 .social-links img {
     
    margin-top: 10px;
-    width: 20%;
+    width: 15%;
 }
 
-.fa-github{
-    font-size: 30px;
-}
 
 .contact-form {
     display: flex;
