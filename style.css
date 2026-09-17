@@ -391,13 +391,14 @@ header {
 .social-links a {
     color: #38bdf8;
     text-decoration: none;
+    padding: 25px;
 }
 
 .social-links img {
 
    margin-top: 10px;
     width: 25px;
-    padding: 10px;
+
 }
 
 
